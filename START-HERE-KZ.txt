@@ -1,0 +1,12 @@
+ASCEND МЕКТЕП САЙТЫ — БАСТАУ
+
+1. ZIP-ті компьютерге жүктеп, Extract / Шығарып алу жаса.
+2. GitHub-та жаңа бос repository аш.
+3. ZIP-тен шыққан папканың ішіндегі ФАЙЛДАРДЫ және src, supabase папкаларын GitHub-қа жүкте.
+4. Маңызды: package.json репозиторийдің ең жоғарғы деңгейінде тұруы керек.
+5. Supabase SQL Editor ішінде supabase/migrations/001_initial_schema.sql файлын толық іске қос.
+6. Vercel-де GitHub repository-ді импортта.
+7. Environment Variables бөліміне NEXT_PUBLIC_SUPABASE_URL және NEXT_PUBLIC_SUPABASE_ANON_KEY қос.
+8. Deploy бас. Толық нұсқаулық README.md файлында.
+
+ҚАУІПСІЗДІК: .env.local және service_role key файлдарын GitHub-қа жүктеме.
